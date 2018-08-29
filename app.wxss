@@ -1,0 +1,14 @@
+/**app.wxss**/
+
+page {
+  height: 100%;
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  flex-wrap: wrap
+}

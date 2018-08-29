@@ -1,0 +1,9 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+  <view>
+    <image wx:if='{{item.img}}' src='/images/{{item.img}}'></image>
+    <text class='basic'>{{item.name}}  ￥:{{item.price}}</text>
+    <text class='detail'>商城正在建设中......</text>
+  
+  </view>  
+</view>

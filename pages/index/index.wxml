@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container" >
+  <view  class="item" wx:for="{{culturalRelic}}">
+    <view class='navigator' bindtap="clickTo" data-item='{{item}}'>
+      <image src="/images/{{item.img}}"></image>
+      <view class='detail'>
+        <text>{{item.name}}\n</text>
+        <text class='price'>售价：{{item.price}}</text>
+      </view>
+      
+    </view>
+  </view>
+</view>

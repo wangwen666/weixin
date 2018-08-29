@@ -1,0 +1,26 @@
+/* pages/detail/detail.wxss */
+view {
+  width: 100%;
+  position: relative
+
+}
+image {
+  width: 100%;
+}
+
+.basic {
+  color: white;
+  font-size: 30rpx;
+  font-family:"微软雅黑";
+  text-align: left;
+  padding-left: 10rpx;
+}
+
+.detail {
+  display: block;
+  color: red;
+  font-size: 20rpx;
+  font-family:"微软雅黑";
+  margin-top: 20rpx;
+  padding-left: 10rpx;
+}
