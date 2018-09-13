@@ -23,7 +23,21 @@ page {
   position: relative;
   text-align: right
 }
+.cartBorder{
+  width: 50rpx;
+  height: 50rpx;
+  position: fixed;
+  z-index: 1000;
+  background-color: red;
+  border-radius: 50%;
+  right: 80rpx;
+  top: 900rpx;
+  opacity: 0.6
+}
 .shopCart {
+  
+}
+._shopCart {
   width: 50rpx;
   height: 50rpx;
   z-index: 100;

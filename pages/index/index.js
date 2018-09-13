@@ -107,6 +107,8 @@ Page({
     console.log(event);
     let curObj = {x: event.detail.x, y: event.detail.y};
     let objFloat = {x: event.detail.x + 10, y: event.detail.y + 10};
+
+    var obj = wx.createSelectorQuery();
     
 
 
