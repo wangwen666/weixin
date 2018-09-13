@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+const utils = require('../../utils/util.js')
 Page({
   data: {
     culturalRelic: {
@@ -101,6 +101,19 @@ Page({
       wx.navigateTo({
         url: '../detail/detail?item='+JSON.stringify(item),
       })
+  },
+  addToShopCart: function(event){
+    console.log(222);
+    console.log(event);
+    let curObj = {x: event.detail.x, y: event.detail.y};
+    let objFloat = {x: event.detail.x + 10, y: event.detail.y + 10};
+    
+
+
+    //utils()
+
+
+
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

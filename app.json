@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/welcome/welcome",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/shopCart/shopCart"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,12 +15,16 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/welcome/welcome",                
+        "pagePath": "pages/welcome/welcome",
         "text": "文物展览"
       },
       {
         "pagePath": "pages/index/index",
         "text": "文创商店"
+      },
+      {
+        "pagePath": "pages/shopCart/shopCart",
+        "text": "个人中心"
       }
     ]
   }
